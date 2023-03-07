@@ -1,0 +1,73 @@
+/* Styling for the container of the post and profile page */
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  /* Styling for the farmer's profile */
+  .profile {
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Styling for the farmer's profile image */
+  .profile img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  
+  /* Styling for the farmer's post */
+  .post {
+    width: 60%;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Styling for the farmer's post title */
+  .post h2 {
+    margin-top: 0;
+  }
+  
+  /* Styling for the farmer's post content */
+  .post p {
+    line-height: 1.5;
+  }
+  
+  /* Styling for the comments section */
+  .comments {
+    width: 60%;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Styling for the comments section title */
+  .comments h3 {
+    margin-top: 0;
+  }
+  
+  /* Styling for the comments */
+  .comment {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+  }
+  
+  /* Styling for the comment author */
+  .comment span {
+    font-weight: bold;
+  }
+  
+  /* Styling for the comment content */
+  .comment p {
+    margin-top: 5px;
+  }
+  

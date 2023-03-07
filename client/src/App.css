@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+  /* background-color: white; */
+    background-color: #c1d82f;
+    background-image: linear-gradient(to bottom right, #71d810, #c9dd4d, #cfdf90);
+    background-image: linear-gradient(to right, #7aed60, #4cd07a, #a7c629, #5cb896, #56db77);
+  
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+/* .App{
+  background-color: rgb(184, 241, 92);
+} */
+
+  
+  .label{
+  display: block;
+  font-size: larger;
+  color: rgb(220, 46, 46);
+  padding: 5px;
+  margin-right: 800px
+  }
+  
+  .input{
+  font-size: larger;
+  padding: 5px;
+  margin: 2px;
+  margin-right: 800px
+  }
+  .btn{
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  font-size: larger;
+  display: block;
+  padding: 5px;
+  margin: 10px auto;
+  margin-right: 850px;
+  }
+  
+  .messages{
+  display: flex;
+  justify-content: center;
+  margin-right: 800px;
+  }
+  
+  .error{
+  display: block;
+  background-color: red;
+  color: rgb(218, 117, 17);
+  width: fit-content;
+  height: 50px;
+  padding: 5px;
+  margin-right: 800px;
+  }
+  
+  .success{
+  display: block;
+  background-color: rgb(49, 156, 192);
+  color: black;
+  width: fit-content;
+  height: 50px;
+  margin-right: 800px;
+  padding: 5px;
+  }
+
+  

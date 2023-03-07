@@ -1,0 +1,46 @@
+.farmer-products-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    color: rgb(28, 27, 22);
+  }
+  
+  .farmer-products-table th,
+  .farmer-products-table td {
+    border: 1px solid #171716;
+    padding: 1px;
+  }  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+  }
+  
+  th,
+  td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #b7b6a4;
+  }
+  
+  th {
+    background-color: rgb(206, 204, 169);
+    color: rgb(31, 29, 29);
+  }
+  
+  tr:hover {
+    background-color: #c8b026;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #babf8a;
+  }
+  
+  td:first-child {
+    font-weight: bold;
+  }
+  
+  td:last-child {
+    text-align: right;
+  }
+  
